@@ -1,0 +1,45 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Basic Initial Layout style. -->
+
+    <style name="IntialLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/layoutMarginTop</item>
+        <item name="android:layout_marginLeft">@dimen/layoutMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/layoutMarginRight</item>
+        <item name="android:background">@drawable/layout_bg</item>
+    </style>
+
+    <!-- Basic Image style -->
+
+    <style name="ImageStyle">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:background">@color/initialLayoutColor</item>
+    </style>
+
+    <!-- Basic Text style -->
+
+    <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginLeft">@dimen/textLayoutMarginLeft</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>
+
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.example.user.test3.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.0"
+        android:contentDescription="@string/udacity_image"
+        android:scaleType="fitXY"
+        android:src="@drawable/udacity_img" />
+
+    <LinearLayout
+        style="@style/IntialLayoutStyle"
+        android:onClick="udacityWebsite">
+
+        <ImageView
+            style="@style/ImageStyle"
+
+            android:src="@drawable/udacity_icon" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/udacity" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/IntialLayoutStyle"
+        android:onClick="callToUdacity">
+
+        <ImageView
+            style="@style/ImageStyle"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/call" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/contact_number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/IntialLayoutStyle"
+        android:onClick="udacityWebsite">>
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/internet" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/website" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/IntialLayoutStyle"
+        android:layout_marginBottom="5dp"
+        android:onClick="udacityLocation">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/map_location" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/address" />
+
+    </LinearLayout>
+
+</LinearLayout>

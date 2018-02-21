@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="textLayoutMarginLeft">8dp</dimen>
+    <dimen name="layoutMarginLeft">16dp</dimen>
+    <dimen name="layoutMarginRight">16dp</dimen>
+    <dimen name="layoutMarginBottom">10dp</dimen>
+    <dimen name="layoutMarginTop">6dp</dimen>
+</resources>
